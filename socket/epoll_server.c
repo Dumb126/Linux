@@ -69,7 +69,7 @@ int main(int argc, char const *argv[])
       tep.events = EPOLLIN;
       tep.data.fd = listenfd;  //指定lfd的监听事件为‘读’
       res = epoll_ctl(efd, EPOLL_CTL_ADD, listenfd, &tep);  //将lfd及对应的结构体设置到树上，efd可找到该树
-      if (res == -1)
+      if (-1 == res)
       {
             perr_exit("epoll_ctl error.");
       }
