@@ -8,11 +8,14 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <unistd.h>
+
+
 int main(int argc,char *argv[])
 {
     int sockfd,numbytes;
     char buf[BUFSIZ];
     struct sockaddr_in their_addr;
+    
     printf("break!");
     while((sockfd = socket(AF_INET,SOCK_STREAM,0)) == -1);
     printf("We get the sockfd~\n");
