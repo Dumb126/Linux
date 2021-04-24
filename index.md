@@ -4,7 +4,9 @@ You can use the [editor on GitHub](https://github.com/Dumb126/Linux/edit/gh-page
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### IPC通信
+## 管道（pipe）
+## 共享内存（mmap）
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
